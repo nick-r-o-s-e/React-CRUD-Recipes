@@ -58,7 +58,7 @@ function AddingForm({ state, setState, setRecipes }: Props) {
     });
   };
 
-  const deleteDirection = (id: number) => {
+  const deleteDirection = (id: number):void => {
     if (data.directions.length > 1) {
       setData((prevVal) => {
         const newDataDirections = [...data.directions].filter(
@@ -68,7 +68,7 @@ function AddingForm({ state, setState, setRecipes }: Props) {
       });
     }
   };
-  const deleteIngredient = (id: number) => {
+  const deleteIngredient = (id: number):void => {
     if (data.ingredients.length > 1) {
       setData((prevVal) => {
         const newDataIngredients = [...data.ingredients].filter(
