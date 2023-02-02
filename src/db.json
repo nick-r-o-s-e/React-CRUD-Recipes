@@ -1,0 +1,154 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "image": "https://assets.epicurious.com/photos/5fca6f8d9014cc9a8df3d074/4:3/w_2663,h_1997,c_limit/Malted_Forever_Brownies_VOG_final.jpg",
+      "title": "Brownies",
+      "ingredients": [
+        [
+          "½",
+          "cup white sugar"
+        ],
+        [
+          "2",
+          "tablespoons butter"
+        ],
+        [
+          "2",
+          "tablespoons water"
+        ],
+        [
+          "1 ½",
+          "cups semisweet chocolate chips"
+        ],
+        [
+          "2",
+          "large eggs, beaten"
+        ],
+        [
+          "½",
+          "teaspoon vanilla extract"
+        ],
+        [
+          "⅔",
+          "cup all-purpose flour"
+        ],
+        [
+          "½",
+          "teaspoon salt"
+        ],
+        [
+          "¼",
+          "teaspoon baking soda"
+        ]
+      ],
+      "prepTime": "25 mins",
+      "coocTime": "35mins",
+      "servings": "16",
+      "directions": [
+        "Preheat the oven to 325 degrees F (165 degrees C). Grease an 8-inch square pan.",
+        "Combine sugar, butter, and water in a medium saucepan; cook and stir over medium heat until boiling. Remove from heat and stir in chocolate chips until melted and smooth; mix in eggs and vanilla. Combine flour, salt, and baking soda; stir into the chocolate mixture. Spread brownie batter evenly into the prepared pan.",
+        "Bake in the preheated oven until top is dry and edges have started to pull away from the sides of the pan, about 20 to 30 minutes. Let cool completely before cutting into squares."
+      ]
+    },
+    {
+      "image": "https://img.taste.com.au/rzQh6Xgx/taste/2016/11/easy-molten-chocolate-souffle-58756-1.jpeg",
+      "title": "Chocolate Souffle",
+      "ingredients": [
+        [
+          "1/2 c. (1 stick)",
+          "butter, cut into tablespoons, plus more for dish"
+        ],
+        [
+          "6 tbsp.",
+          "granulated sugar, plus more for dish"
+        ],
+        [
+          "8 oz.",
+          "semisweet chocolate, roughly chopped"
+        ],
+        [
+          "1 tsp.",
+          "pure vanilla extract"
+        ],
+        [
+          "1 tsp.",
+          "kosher salt "
+        ],
+        [
+          "4",
+          "large eggs, separated "
+        ],
+        [
+          "1 tsp.",
+          "Powdered sugar, for serving"
+        ]
+      ],
+      "prepTime": "10 mins",
+      "coocTime": "55 mins",
+      "servings": "4",
+      "directions": [
+        "Preheat oven to 375°. Grease the inside of four 6-ounce ramekins well with butter including the top of the outside rim. Sprinkle a little sugar in each and tap it around to coat the inside well. Dump out any excess sugar. Place on a small baking sheet. ",
+        "Create a double boiler by placing a large bowl over a pot of simmering water, ensuring that the bottom of the bowl does not touch water. Add chocolate and butter to bowl and stir until completely melted. Remove from heat and stir in vanilla and salt. Let cool while you whip egg whites.",
+        "Add egg whites to a medium bowl and beat with a hand mixer. Once at soft peaks start adding sugar slowly, 1 tablespoon at a time. Continue beating until egg whites reach stiff peaks. ",
+        "Add egg yolks one at a time to cooled chocolate, whisking well after each one. Add about ½ cup of whipped egg whites to chocolate and stir until just combined. Add the remaining egg whites in 2 batches, gently folding in after each addition just until no white streaks remain. ",
+        "Gently pour batter into prepared ramekins, filling just below the top rim and smooth tops. ",
+        "Bake until soufflés have risen tall and are just slightly wobbly, about 20 minutes.",
+        "Dust with powdered sugar and serve immediately."
+      ],
+      "id": 2
+    },
+    {
+      "directions": [
+        "Make cake: Preheat oven to 350º. Grease a 9\"-x-13\" pan with cooking spray and dust with cocoa powder. Prepare chocolate cake mix according to package directions and bake until a toothpick inserted in the center comes out clean, 25 to 30 minutes. Let cool completely.",
+        "Poke cake all over with the handle of a wooden spoon. In a small bowl, mix together sweetened condensed milk and melted chocolate. Pour mixture into the holes.",
+        "Make frosting: In a large bowl using a hand mixer, beat butter, powdered sugar, cocoa powder, vanilla, and salt. Beat in heavy cream, adding more by the tablespoon until consistency is creamy but can hold peaks.",
+        "Spread frosting all over cake with an offset spatula and sprinkle with chocolate shavings."
+      ],
+      "ingredients": [
+        [
+          "1",
+          "Cooking spray"
+        ],
+        [
+          "3c.",
+          "Cocoa powder "
+        ],
+        [
+          "1",
+          "box chocolate cake mix, plus"
+        ],
+        [
+          "1 (14-oz.)",
+          "can sweetened condensed milk"
+        ],
+        [
+          "1 c.",
+          "semisweet chocolate chips, melted Chocolate shavings, for garnish"
+        ],
+        [
+          "1 c.",
+          "butter, softened"
+        ],
+        [
+          "2 1/2 c.",
+          "powdered sugar"
+        ],
+        [
+          "2 tsp.",
+          "pure vanilla extract Pinch of kosher salt"
+        ],
+        [
+          "1/4 c.",
+          "heavy cream (plus more if necessary)"
+        ]
+      ],
+      "title": "Chocolate cake",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-death-by-chocolate-poke-cake-vertical-1543536011.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "servings": "12",
+      "prepTime": "20",
+      "coocTime": "70",
+      "id": 3
+    }
+  ]
+}
