@@ -1,0 +1,28 @@
+.adding-card {
+  width: 100%;
+  border-radius: 0.375rem;
+  background-color: rgba(0, 0, 0, 0.524);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 0.3s;
+
+  i {
+    color: #faebd7;
+    transition: all ease 0.3s;
+    pointer-events: none;
+    height: fit-content;
+    font-size: 10em;
+  }
+
+  &:hover {
+    background-color: rgba(65, 64, 64, 0.501);
+
+    i {
+      color: #151313;
+
+      font-size: 12em;
+    }
+  }
+}

@@ -1,0 +1,156 @@
+form {
+  position: absolute;
+  background-color: #faebd7;
+  border: 2px solid rgb(147, 85, 44);
+  width: 70%;
+  max-height: 90vh;
+  border-radius: 0.6em;
+  padding: 1.7em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  overflow-y: auto;
+
+  button {
+    width: fit-content;
+    place-self: start !important;
+  }
+
+  .title-input-div {
+    width: 50%;
+  }
+
+  .form-image-url-div {
+    width: 40%;
+  }
+
+  .form-details {
+    width: fit-content;
+    display: flex;
+    gap: 1.5em;
+
+    div {
+      width: 11em;
+      margin-bottom: 0 !important;
+    }
+
+    input {
+      border-radius: 0 5px 5px 0 !important;
+    }
+
+    span {
+      padding-left: 0.3em;
+      display: flex;
+      align-items: end;
+    }
+  }
+
+  .main-content {
+    width: 100%;
+    display: flex;
+    gap: 2.7em;
+    margin-bottom: 1em;
+
+    h3 {
+      margin-bottom: 0.7em;
+      font-size: 2.2em;
+      text-align: center;
+    }
+  }
+
+  .form-ingredients {
+    display: flex;
+    flex-direction: column !important;
+    align-content: stretch;
+    flex-wrap: wrap;
+    width: 40%;
+    flex-wrap: nowrap;
+    padding-right: 1em;
+
+    .form-ingredient-quantity {
+      max-width: 5.5em;
+    }
+
+    .add-ingredient{
+      text-align: center;
+      font-size: 1.4em;
+    }
+  }
+  .form-directions {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    width: 60%;
+    position: relative;
+    flex-wrap: nowrap;
+    padding-right: 1em;
+
+    i {
+      cursor: pointer;
+      font-size: 1.6em;
+      width: min-content;
+      align-self: center;
+    }
+
+    label {
+      font-size: 1.2em;
+      padding: 0.2em 0 0.6em;
+    }
+
+    textarea {
+      margin-bottom: 0.5em !important;
+      padding-top: 1.5em !important;
+      padding-right: 1.5em !important;
+    }
+
+    .delete-direction {
+      font-size: 1.3em;
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .form-ingredients {
+      width: 70%;
+    }
+
+    .form-directions {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 1130px) {
+  .form-details {
+    flex-direction: column;
+  }
+
+  .form-image-url-div {
+    width: 70% !important;
+  }
+
+  .title-input-div {
+    width: 80% !important;
+  }
+
+  .form-ingredients {
+    width: 100% !important;
+  }
+
+  .form-directions {
+    width: 100% !important;
+  }
+}

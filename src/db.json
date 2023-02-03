@@ -146,9 +146,92 @@
       "title": "Chocolate cake",
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-death-by-chocolate-poke-cake-vertical-1543536011.jpg?crop=1xw:1xh;center,top&resize=980:*",
       "servings": "12",
-      "prepTime": "20",
-      "coocTime": "70",
+      "prepTime": "20mins",
+      "coocTime": "70mins",
       "id": 3
+    },
+    {
+      "id": "572f5e67-695f-429d-b7b7-2e6c09f02c87",
+      "image": "https://rare-gallery.com/uploads/posts/505929-cake.jpg",
+      "title": "Cherry Cake",
+      "ingredients": [
+        [
+          "1 3/4 c.",
+          "all-purpose flour"
+        ],
+        [
+          "3/4 c.",
+          "unsweetened cocoa"
+        ],
+        [
+          "1 1/2 tsp..",
+          "baking soda"
+        ],
+        [
+          "1/2 tsp.",
+          "salt"
+        ],
+        [
+          "1 c.",
+          "dried tart cherries"
+        ],
+        [
+          "1 tbsp.",
+          "instant espresso-coffee powder"
+        ],
+        [
+          "1 1/2 c.",
+          "buttermilk"
+        ],
+        [
+          "2 tsp.",
+          "vanilla extract"
+        ],
+        [
+          "1 3/4 c.",
+          "sugar"
+        ],
+        [
+          "1 c.",
+          "butter"
+        ],
+        [
+          "3",
+          "large eggs"
+        ],
+        [
+          "2 oz.",
+          "unsweetened chocolate"
+        ],
+        [
+          "1",
+          "package semisweet-chocolate chips"
+        ],
+        [
+          "1",
+          "Confectioners' sugar for dusting"
+        ],
+        [
+          "1",
+          "Mint sprig"
+        ],
+        [
+          "1",
+          "Whipped cream (optional)"
+        ]
+      ],
+      "prepTime": "70",
+      "coocTime": "110mins",
+      "servings": "16mins",
+      "directions": [
+        "Preheat oven to 325 degrees F. Grease and flour 10-inch Bundt pan. In medium bowl, combine flour, cocoa, baking soda, and salt, set aside.",
+        "In small bowl, place cherries with enough very hot water just to cover, let stand at least 5 minutes to soften cherries. In 2-cup glass measuring cup, dissolve espresso powder in 1 tablespoon very hot water; stir in buttermilk and vanilla. Set aside.",
+        "In large bowl, with mixer at low speed, beat sugar with butter until blended, scraping bowl often with rubber spatula. Increase speed to medium, beat 2 minutes, occasionally scraping bowl. Reduce speed to low, add eggs, 1 at a time, beating well after each addition.",
+        "At low speed, alternately add flour mixture and buttermilk mixture, beginning and ending with flour mixture, beat until smooth, occasionally scraping bowl.",
+        "Drain cherries and pat with paper towels to remove excess water. With rubber spatula, fold melted unsweetened chocolate into batter. Then fold in chocolate chips and drained cherries.",
+        "Pour batter into pan. Bake cake 1 hour to 1 hour 10 minutes, until toothpick inserted in center of cake comes out clean. Cool cake in pan on wire rack 10 minutes. Invert cake onto wire rack to cool completely.",
+        "To serve, sift confectioners' sugar over cake. Garnish with mint sprig. Pass whipped cream to spoon over each serving if you like."
+      ]
     }
   ]
 }

@@ -1,15 +1,17 @@
 import { useState } from "react";
-import "./App.scss";
-import Card from "./components/Card";
-import AddingCard from "./components/AddingCard";
-import AddingForm from "./components/addingForm/AddingForm";
 import axios from "axios";
+
+import Card from "./components/cards/card/Card";
+import AddingCard from "./components/cards/newRecipeCard/NewRecipeCard";
+import AddingForm from "./components/formVariants/AddingForm";
+
 import Recipe from "./assets/types/Recipe";
-import { v4 as uuidv4 } from "uuid";
+import "./App.scss";
 
 const getPosts = () => {
   return axios.get("http://localhost:3004/recipes").then(({ data }) => data);
 };
+
 const data = await getPosts().then((data) => data);
 
 function App() {
@@ -19,21 +21,31 @@ function App() {
 
   return (
     <div className="main-container">
+      <AddingForm
+        state={formState}
+        setState={setFormState}
+        setRecipes={setRecipes}
+        recipeToEdit={undefined}
+      />
+
       <h1>Sweet Recipes</h1>
+
       <div className="cards-container">
         {recipes.map((recipe: Recipe, key: string) => {
           return (
-            <Card key={uuidv4()} recipe={recipe} setRecipes={setRecipes} />
+            <div className="" key={recipe.id}>
+              <Card
+                key={recipe.id}
+                id={recipe.id}
+                recipe={recipe}
+                setRecipes={setRecipes}
+              />
+            </div>
           );
         })}
 
         <AddingCard setFormState={setFormState} />
       </div>
-      <AddingForm
-        state={formState}
-        setState={setFormState}
-        setRecipes={setRecipes}
-      />
     </div>
   );
 }
